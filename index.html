@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <body>
+    <!--Enter HTML Codes Here-->
+    <div class="container">
+      <div class="row-12  mb-2 mt-2">
+        <h1>User Information</h1>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="row">
+            <img class="img-thumbnail" src="pic.png" alt="image logo">
+          </div>
+          <div class="row">
+            <input type="file" placeholder="Upload Picture" name="picture" required>
+          </div>
+        </div>
+        <div class="col-9">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control mt-2 mb-2" id="name"  placeholder="Last Name" required>
+              <input type="text" class="form-control mt-2 mb-2" id="name"  placeholder="First Name" required>
+              <input type="text" class="form-control mt-2 mb-2" id="name"  placeholder="Middle Name" required>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row-12 mb-2 mt-2">
+        <form>
+          <label for="address">Address</label>
+          <div class="form-row">
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="City" id="address" required>
+            </div>
+            <div class="col-3">
+              <input type="text" class="form-control" placeholder="State" id="address" required>
+            </div>
+            <div class="col-3">
+              <input type="text" class="form-control" placeholder="Zip" id="address" required>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row-12 mb-2 mt-2">
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <label for="birthday">Birthday</label>
+              <div class="form-group">
+                <input type="date" class="form-control" id="birthday" value="2014-02-09" required>
+              </div>
+            </div>
+            <div class="col">
+              <label for="number">Mobile Number</label>
+              <div class="form-group">
+                <input type="text" class="form-control" id="number"  placeholder="09xxxxxxxxx" required>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row-12 mb-2 mt-2">
+        <form>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+          </div>
+        </form>
+      </div>
+      <div class="row-12 mb-2 mt-2">
+        <form>
+          <div class="form-group">
+            <label for="desrcription">Description</label>
+            <textarea class="form-control" id="description" rows="3" placeholder="Tell us more about yourself..." required></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="row-12 mb-2 mt-2">
+        <button type="submit" class="btn btn-primary mb-2 mt-2">Submit</button>
+      </div>
+    </div>
+    <!--Boostrap Javascript Files-->
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
